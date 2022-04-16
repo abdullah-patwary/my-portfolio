@@ -1,4 +1,30 @@
-h1{
+.Heading{
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+}
+#h01{
     text-align: center;
     color: black;
+    font-size: 50px;
+}
+#name{
+    color: blueviolet;
+}
+p{
+    font-size: larger;
+}
+#btn1{
+    background-color: rgb(239, 147, 26);
+    color: white;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
 }
