@@ -16,15 +16,19 @@ body{
 #name{
     color: blueviolet;
 }
-p{
-    font-size: larger;
+#p1{
+    font-size: 30px;
+    background-color: black;
+    color: aqua;
+    width: fit-content;
 }
 .half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding-left: 2%;
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  padding-left: 2%;
 }
 .half-width img{
     width: 80%;
