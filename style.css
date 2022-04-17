@@ -16,7 +16,7 @@ body{
 #name{
     color: blueviolet;
 }
-#p1{
+.tittle{
     font-size: 30px;
     background-color: black;
     color: aqua;
@@ -29,9 +29,16 @@ body{
   margin-left: 5%;
   margin-bottom: 5%;
   padding-left: 2%;
+  height: 490px;
+}
+.topside{
+  padding-bottom: 150px;
 }
 .half-width img{
     width: 80%;
+}
+.dreamArea img{
+  width: 80%;
 }
 section{
   height: 490px;
@@ -43,5 +50,12 @@ section{
   padding: 10px 20px;
   font-weight: bold;
   background-image: linear-gradient(45deg, rgb(5, 250, 254), rgb(14, 14, 250));
+}
+.dreamArea{
+  height: 490px;
+  background-size: contain;
+  background-image: url("images/back2.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
