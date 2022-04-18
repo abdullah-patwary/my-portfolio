@@ -11,16 +11,16 @@ body{
 #h01{
     text-align: center;
     color: black;
-    font-size: 50px;
+    font-size: 60px;
 }
-#name{
+.blue-highlight{
     color: blueviolet;
 }
 .tittle{
     font-size: 30px;
     background-color: black;
     color: aqua;
-    width: fit-content;
+    width: max-content;
 }
 .half-width{
   font-size: 20px;
@@ -57,5 +57,37 @@ section{
   background-image: url("images/back2.png");
   background-repeat: no-repeat;
   background-position: right;
+  padding-bottom: 150px;
 }
+#exper{
+  margin: 30px;
+}
+.experience-box{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 80%;
+}
+.experience-area{
+  background-image: url("images/expback.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#experience-border{
+  border-left: 7px solid;
+  border-image: linear-gradient(yellow, rgb(49, 59, 4));
+  border-image-slice: 1;
+  background-color: white;
+}
+#noob-border{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgba(11, 243, 193, 0.966), rgb(7, 90, 243));
+  border-image-slice: 1;
+  background-color: white;
+}
+.exp-heading{
+  font-size: 50px;
+}
+#footer{
+  text-align: center;
 
+}
