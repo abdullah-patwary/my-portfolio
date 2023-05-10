@@ -91,3 +91,7 @@ section{
   text-align: center;
 
 }
+
+#hire:hover{
+  color: chartreuse;
+}
